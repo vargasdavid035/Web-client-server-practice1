@@ -8,19 +8,21 @@
 <body>
 
     <div>
+        <a href="/">Back to home</a>
         <h1>Contact us </h1>
-        <form>
+        <form action="/contactus" method="post">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="email">Name</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
 
             <label for="subject">subject</label>
-            <textarea  id="subject" name="subject" required rows="5">
+            <textarea  id="subject" name="subject" required rows="5"></textarea>
                 
                 
                 <button type="submit">Send</button>
+                <button type="reset">Clear</button>
         </form>
     </div>
     
